@@ -136,9 +136,9 @@ function verificarGanhador () {
     
 
     if (square1.textContent != "" && square1.textContent === square2.textContent && square1.textContent === square3.textContent){
-        square1.style.backgroundColor = "green"
-        square2.style.backgroundColor = "green"
-        square3.style.backgroundColor = "green"
+        square1.style.backgroundColor = "#98fb98"
+        square2.style.backgroundColor = "#98fb98"
+        square3.style.backgroundColor = "#98fb98"
         
         nomeDoVencedor()
         parar.style.pointerEvents= "none";
@@ -146,17 +146,17 @@ function verificarGanhador () {
         
         
     } else if (square4.textContent != "" && square4.textContent === square5.textContent && square4.textContent === square6.textContent) {
-        square4.style.backgroundColor = "green"
-        square5.style.backgroundColor = "green"
-        square6.style.backgroundColor = "green"
+        square4.style.backgroundColor = "#98fb98"
+        square5.style.backgroundColor = "#98fb98"
+        square6.style.backgroundColor = "#98fb98"
         
         nomeDoVencedor()
         parar.style.pointerEvents= "none";
 
     } else if (square7.textContent != "" && square7.textContent === square8.textContent && square7.textContent === square9.textContent) {
-        square7.style.backgroundColor = "green"
-        square8.style.backgroundColor = "green"
-        square9.style.backgroundColor = "green"
+        square7.style.backgroundColor = "#98fb98"
+        square8.style.backgroundColor = "#98fb98"
+        square9.style.backgroundColor = "#98fb98"
 
         nomeDoVencedor()
         parar.style.pointerEvents= "none";
@@ -170,33 +170,33 @@ function verificarGanhador () {
         parar.style.pointerEvents= "none";
 
     } else if (square5.textContent != "" && square5.textContent === square2.textContent && square8.textContent === square2.textContent) {
-        square2.style.backgroundColor = "green"
-        square5.style.backgroundColor = "green"
-        square8.style.backgroundColor = "green"
+        square2.style.backgroundColor = "#98fb98"
+        square5.style.backgroundColor = "#98fb98"
+        square8.style.backgroundColor = "#98fb98"
 
         nomeDoVencedor()
         parar.style.pointerEvents= "none";
 
     } else if (square9.textContent != "" && square9.textContent === square3.textContent && square6.textContent === square3.textContent) {
-        square3.style.backgroundColor = "green"
-        square6.style.backgroundColor = "green"
-        square9.style.backgroundColor = "green"
+        square3.style.backgroundColor = "#98fb98"
+        square6.style.backgroundColor = "#98fb98"
+        square9.style.backgroundColor = "#98fb98"
 
         nomeDoVencedor()
         parar.style.pointerEvents= "none";
 
     } else if (square1.textContent != "" && square1.textContent === square5.textContent && square1.textContent === square9.textContent) {
-        square1.style.backgroundColor = "green"
-        square5.style.backgroundColor = "green"
-        square9.style.backgroundColor = "green"
+        square1.style.backgroundColor = "#98fb98"
+        square5.style.backgroundColor = "#98fb98"
+        square9.style.backgroundColor = "#98fb98"
 
         nomeDoVencedor()
         parar.style.pointerEvents= "none";
 
     } else if (square5.textContent != "" && square5.textContent === square3.textContent && square7.textContent === square3.textContent) {
-        square3.style.backgroundColor = "green"
-        square5.style.backgroundColor = "green"
-        square7.style.backgroundColor = "green"
+        square3.style.backgroundColor = "#98fb98"
+        square5.style.backgroundColor = "#98fb98"
+        square7.style.backgroundColor = "#98fb98"
 
         nomeDoVencedor()
         parar.style.pointerEvents= "none";
